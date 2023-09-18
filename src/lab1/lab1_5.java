@@ -1,8 +1,8 @@
 package lab1;
 
 public class lab1_5 {
-    public static long factor(int n) {
-        long fact=1;
+    public static int factor(int n) {
+        int fact = 1;
         for(int i=1; i<=n; i++) {
             fact*=i;
         }
