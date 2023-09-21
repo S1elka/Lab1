@@ -9,7 +9,6 @@ public class DogKennel {
     public static Dog[] addDogs(Dog[] arr, String name, int age){
         List<Dog> doggies = new ArrayList<>(Arrays.asList(arr));
         doggies.add(new Dog(name, age));
-
         return doggies.toArray(new Dog[0]);
     }
     public static void main(String[] args) {
